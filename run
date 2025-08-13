@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+make all
+eval "./bin/Debug/$(basename "$PWD")"
